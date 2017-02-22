@@ -1,0 +1,135 @@
+/*.racer_table td {
+  background-color: white;
+  height: 75px;
+  width: 250px;
+  border: 1px solid black;
+  opacity: .8;
+}*/
+
+/*body {
+  background-size: auto;
+  background-color: blue;
+  background-image: url("http://vignette4.wikia.nocookie.net/gameshows/images/8/89/JeopardyS26aHD09-10.png/revision/latest?cb=20120619210216");
+}*/
+
+div {
+  position: relative;
+}
+td {
+	padding-left: 1.25cm;
+  width:200px;
+}
+
+tr{
+	
+	height: 140px;
+}
+
+#board {
+	position: relative;
+  	width: 1200px;
+  	height: 913px;
+  	border: 2px solid black;
+  	background-image: url("../img/Jeopardy_Board_1991_c.png");
+  	background-repeat: no-repeat;
+  	background-size: 1200px 913px;
+}
+
+.container {
+  text-align: center;
+  color: black;
+  margin: 0;
+  height: 10px;
+}
+
+/*#category_one{
+	left: 67px;
+}
+.geography{
+	left: 67px;
+}
+#category_two{
+	left: 176px;
+}
+.sports{
+	left: 176px;
+}
+#category_three{
+	left: 315px;
+}
+.animals{
+	left: 315px;
+}
+#category_four{
+	left: 435px;
+}
+.science{
+	left: 435px;
+}
+#category_five{
+	left: 560px;
+}
+.television{
+	left: 560px;
+}
+#category_six{
+	left: 690px;
+}
+.history{
+	left: 690px;
+}*/
+
+/*.racer_table td.player1-win {
+  background-color: red;
+}
+
+.racer_table td.player2-win  {
+  background-color: lightgreen;
+}*/
+
+/*.col-1-2 {
+  width: 50%;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+#ebony {
+  background-color:magenta;
+}
+#left-col {
+  float:left;
+  height: 175px;
+  width:500px;
+  background:lightblue;
+  opacity: .8;
+
+}
+#right-col {
+  float:right;
+  height: 175px;
+  width:500px;
+  background:lightgreen;
+  opacity: .8;
+}
+
+.question {
+  color: white;
+}
+
+.answer {
+  color: red;
+}
+#pick {
+  color: red;
+  font-size: 3em;
+}*/
