@@ -1,27 +1,26 @@
 import React, { Component } from 'react';
 import './trivia.css';
 import './questions.js';
-import './introflip.js';
+import Introflip from './Introflip.js';
 
 class Trivia extends Component{
 
 	constructor() {
+    super();
     this.state = { flipper: false } ;
   }
 
 	componentWillMount(){
     this.setState({ flipper: true });
-	},
+	} 
 
 
 	render() {
-
-
 		return (
-
-			{this.state.flipper && <Introflip />}
-
+      <div>
+        {this.state.flipper && <Introflip />}
 			<div id="board">
+      
 			<h2 className="container big">Jeopardy Jr</h2>
     		<table className="racer_table">
     			<tbody>
@@ -76,6 +75,7 @@ class Trivia extends Component{
       			</tbody>
     		</table>
     		</div>
+        </div>
 		);
 	}
 }
