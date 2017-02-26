@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './trivia.css';
 import './questions.js';
 import Introflip from './Introflip.js';
+import Points from './Points.js';
 
 class Trivia extends Component{
 
@@ -19,8 +20,8 @@ class Trivia extends Component{
 		return (
       <div>
         {this.state.flipper && <Introflip />}
+        {this.state.flipper && <Points />}
 			<div id="board">
-      
 			<h2 className="container big">Jeopardy Jr</h2>
     		<table className="racer_table">
     			<tbody>
