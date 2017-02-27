@@ -1,0 +1,13 @@
+
+/* entire container, keeps perspective */
+.points-container {
+	perspective: 600px;
+	position: absolute;
+	background: red;
+	top: 450px;
+	left: 1200px;
+	width: 700px;
+	height: 455px;
+	text-align: center;
+	
+}

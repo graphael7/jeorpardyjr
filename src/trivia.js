@@ -1,26 +1,42 @@
 import React, { Component } from 'react';
 import './trivia.css';
-import './questions.js';
-import Introflip from './Introflip.js';
+import arr from './questions.js';
+import ShowQuestion from './ShowQuestion.js';
+import Points from './Points.js';
 
 class Trivia extends Component{
 
 	constructor() {
     super();
-    this.state = { flipper: false } ;
+    this.state = { question: "" } ;
   }
 
-	componentWillMount(){
-    this.setState({ flipper: true });
-	} 
+	// componentWillMount(){
+    
+ //    this.setState({ flipper: true });
+	// } 
 
+  clickHandler(event){
+      var lengthofarray = arr.length
+      
+      for (var i = 0; i < lengthofarray; i++){
+        if (arr[i].category == event.target.className && arr[i].points ==  event.target.innerHTML){
+          this.setState({question: arr[i].question});
+        }
+      }
+  }
 
 	render() {
+
+    console.log(arr);
+  
+
+
 		return (
       <div>
-        {this.state.flipper && <Introflip />}
-			<div id="board">
-      
+        { <ShowQuestion question= {this.state.question}/>}
+        { <Points />}
+			<div id="board" onClick ={this.clickHandler.bind(this)}>
 			<h2 className="container big">Jeopardy Jr</h2>
     		<table className="racer_table">
     			<tbody>

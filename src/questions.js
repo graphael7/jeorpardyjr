@@ -49,3 +49,5 @@ var history500 = new Questions({category:"history",question:"Tradition says this
 
 
 var arr = [geography100,geography200,geography300,geography400,geography500,sports100,sports200,sports300,sports400,sports500,animals100,animals200,animals300,animals400,animals500,science100,science200,science300,science400,science500,television100,television200,television300,television400,television500,history100,history200,history300,history400,history500]
+
+module.exports = arr

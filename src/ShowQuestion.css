@@ -1,0 +1,13 @@
+
+.showquestion-container {
+	perspective: 600px;
+	position: absolute;
+	background: #00A5D5;
+	left: 1200px;
+	width: 700px;
+	height: 455px;
+	text-align: center;
+	
+}
+	
+ 
