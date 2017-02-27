@@ -1,13 +1,13 @@
 
-/* entire container, keeps perspective */
-.points-container {
+.showquestion-container {
 	perspective: 600px;
 	position: absolute;
-	background: red;
-	top: 450px;
+	background: #00A5D5;
 	left: 1200px;
 	width: 700px;
 	height: 455px;
 	text-align: center;
 	
 }
+	
+ 
